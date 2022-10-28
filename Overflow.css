@@ -1,0 +1,17 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 50px;
+}
+div{
+    margin: auto;
+    margin-top: 50px;
+    width: 320px;
+    height: 350px;
+    border: 5px solid black;
+    background: purple;
+    overflow:auto;
+    overflow-y: hidden; 
+    /* esto sirve para ocultar la linea de bajada */
+    /* overflow: es lo que sobra, hacer que no se salga se mantenga dentro de una caja overflow es un yorjam */
+}
