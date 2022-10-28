@@ -1,0 +1,21 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+.cont div{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+.pr{
+    background: purple;
+    width: 70%;
+}
+.sg{
+    background: rgba(0, 0, 0, 0.418);
+    width: 30%;
+}
+/* float funciona para envolver imagenes con texto como si fuera un documento */
