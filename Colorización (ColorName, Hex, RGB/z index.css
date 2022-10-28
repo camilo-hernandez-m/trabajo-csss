@@ -1,0 +1,41 @@
+div{
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+.a{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    margin: 40px;
+    position: relative;
+
+}
+
+.son{
+    background-color: rgb(0, 255, 115);
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+
+}
+/* .ala2{
+    background-color: rgb(0, 255, 0);
+    position: relative ;
+    /* mantiene su espacio en la pantalla y mantiene el punto de referencia del mismo y adquiere el z-index: ; */
+    /* al añadir el espacio relativo hace que se conserve el mismo espacio en el que se encuentra sin modificarse, a menos que se utilice el absolute, si se hace eso se consumira todo. */
+    /* top: 50px;
+    left: 20px; */
+    /* las propiedades top y left:  son las mas importantes; */
+    /* z-index: 100; */
+/* } */ 
+/* .ala3{
+    background-color: rgb(3, 107, 3);
+    position: relative;
+    /* Lo que hace el z-index: es poner un elemento por ensima de otro elemento; */
+    /* z-index: 10;
+} */ 
