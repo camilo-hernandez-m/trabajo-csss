@@ -1,0 +1,24 @@
+div{
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: yellow;
+}
+
+
+.ala1{
+    background-color: aqua;
+}
+.ala2{
+    background-color: rgb(255, 0, 43);
+    position: relative ;
+    /* mantiene su espacio en la pantalla y mantiene el punto de referencia del mismo y adquiere el z-index: ; */
+    /* al añadir el espacio relativo hace que se conserve el mismo espacio en el que se encuentra sin modificarse, a menos que se utilice el absolute, si se hace eso se consumira todo. */
+    top: -5px;
+    left: 20px;
+    /* las propiedades top y left:  son las mas importantes; */
+
+}
+.ala3{
+    background-color: rgb(255, 72, 0);
+}
