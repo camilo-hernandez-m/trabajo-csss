@@ -1,0 +1,27 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+.texto{
+    padding: 20px;
+}
+.texto::first-letter{
+    color: rgb(175, 0, 0);
+    /* esto funciona para colorear la primera letra */
+}
+.texto::first-line {
+    color: rgb(107, 0, 207);
+    /* cambia de color la primera linea */
+}
+input{ 
+    margin: 100px;
+    padding: 6px;
+}
+input::placeholder{
+    color: purple;
+    /* colorea las letras escritras en la etiquta invisible */
+    font-size: 20px;
+}
+/* se refiere a la primera linea de .texto */
+/* no se puede aplicar un seudo elemento a un elemento */
