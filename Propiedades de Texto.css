@@ -1,0 +1,14 @@
+
+.contact-form{
+    font-size: 25px;
+}
+.contact-form_h2{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* aqui podemos ver el tamaño de la letra y su tipografia */
+    line-height: 2;
+    /* y este es el tamaño que ocupa */
+    font-weight: 100;
+    /* esto es para el grosor de la letra */
+    color: rgba(88, 10, 161, 0.685);
+}
