@@ -1,0 +1,20 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+.arroz1{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    margin: auto;
+    border: 10px solid red;
+    box-sizing: content-box;
+}
+.arroz2{
+width: 200px;
+height: 200px;
+background: black;
+margin: auto;
+/* el outline es para marcar elementos como se encuentran en celeccion */
+}
