@@ -1,0 +1,17 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+.caja{
+    margin: 25px;
+    width: 300px;
+    height: 500px;
+    border: 2px solid purple;
+    background-color: pink;
+    cursor: pointer;
+    /* cursor: pointer hace que el cursor (la figurita cambie); */
+}
+.caja:active{
+    cursor: row-resize;
+}
