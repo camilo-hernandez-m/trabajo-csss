@@ -1,0 +1,17 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 50px;
+}
+body{
+    padding-top: 100px;
+}
+
+.caja1{
+    background: purple;
+    position: fixed;
+    opacity: 0.4;
+    margin: -100px;
+}
+
+/* Position Fixed es igual a aboslute pero este se queda fijado en un lugar */
