@@ -1,0 +1,18 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 50px;
+}
+body{
+    padding-top: 100px;
+}
+
+.caja1{
+    background: purple;
+    position: sticky;
+    opacity: 0.4;
+    margin-top: 100px;
+    top: 50px;
+}
+/* es una mescla entre relative y fixed */
+/* esto mantiene el espacio que se reserva y no lo pierde */
