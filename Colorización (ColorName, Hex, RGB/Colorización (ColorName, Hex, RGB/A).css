@@ -1,0 +1,16 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 50px;
+}
+.caja{
+    margin: 40px;
+    width: 200px;
+    height: 300px;
+    border: 5px solid #f000f0;
+    background: rgb(red, green, blue);
+/* cambia los diferentes tipos de color; */
+}
+/* .caja:active{
+    background-color: darkblue;
+} */
