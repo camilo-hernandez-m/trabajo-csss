@@ -1,0 +1,21 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+div{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    background: #ddd;
+}
+h1{
+    font-size: 24px;
+}
+.caja{
+    background: rgb(102, 31, 31);
+}
+.caja2{
+background: #ddd;
+}
+/* adaptavilidad a la pantalla, un ajuste segun en donde lo estes viendeo */
