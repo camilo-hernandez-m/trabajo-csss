@@ -1,0 +1,21 @@
+div{
+    width: 160px;
+    height: 160px;
+    display: block;
+}
+
+
+.ala1{
+    background-color: rgb(0, 102, 255);
+}
+.ala2{
+    background-color: rgb(95, 9, 23);
+    position: absolute;
+    /* hace que el espacio reservado desaparezca y la caja de abajo pase arriba conseguiendo el espacio del anterior */
+    opacity: .6;
+    /* opacity funciona para hacer un poco de transparencia a los objetos que estan encima de otros */
+
+}
+.ala3{
+    background-color: rgb(212, 145, 118);
+}
