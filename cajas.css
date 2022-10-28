@@ -1,0 +1,13 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+h2 {
+    display: inline;
+    background-color: black;
+}
+p{
+    height: 400px;
+}
+/* esto genera cajas pero solo las puedes observar en inspeccionar */
