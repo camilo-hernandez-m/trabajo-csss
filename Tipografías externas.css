@@ -1,0 +1,11 @@
+.contact-form{
+    font-size: 25px;
+}
+.contact-form_h2{
+    font-size: 2em;
+    font-family:'Noto Sans JP', sans-serif;;
+    /* aqui implementamos la tipografia */
+    line-height: 2;
+    font-weight: 100;
+    color: rgba(88, 10, 161, 0.685);
+}
