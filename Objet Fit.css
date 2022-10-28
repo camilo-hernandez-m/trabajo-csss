@@ -1,0 +1,19 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+.caja{
+    margin: 25px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+}
+.caja img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    object-fit: cover;
+    /* con object-fit: cover; la imagen se ajusta al contenedor  */
+    /* object-fit: contain; hace que la imagen se ajuste a la resulucion del contenido */
+}
