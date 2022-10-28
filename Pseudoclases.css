@@ -1,0 +1,27 @@
+*{
+    font-family: "lobster", cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+.caja1{
+    height: 100px;
+    width: 200px;
+    background: purple;
+    transition: all 1s;
+    border: 3px solid black;
+    /* nos permite y sirve para cambiar la velocidad de las transiciones  */
+}
+
+.caja1:hover{
+    background: darkslateblue;
+    height: 300px;
+    width: 300px;
+
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: blueviolet;
+}
+/* los visitied y los link tienen mas importancias que solo colocar el color */
